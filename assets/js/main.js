@@ -546,8 +546,8 @@ $(document).ready(function($){
 	if ( $mapWrapper.length > 0 ) {
 		var map = new GMaps({
 			div: '#map',
-			lat : 40.727530,
-			lng : -73.942698,
+			lat : 40.7128,
+			lng : -74.0059,
 			scrollwheel: false,
 			draggable: draggableOp,
 			zoom: 16,
@@ -556,11 +556,11 @@ $(document).ready(function($){
 		});
 
 		map.addMarker({
-			lat : 40.727530,
-			lng : -73.942698,
+			lat : 40.7128,
+			lng : -74.0059,
 			icon: 'images/marker-icon.png',
 			infoWindow: {
-				content: '<p>BD InfoSys Ltd, Dhaka, Bangladesh</p>'
+				content: '<p>New York City</p>'
 			}
 		});
 	}
