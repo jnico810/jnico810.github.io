@@ -550,19 +550,19 @@ $(document).ready(function($){
 			lng : -74.0059,
 			scrollwheel: false,
 			draggable: draggableOp,
-			zoom: 16,
+			zoom: 12,
 			disableDefaultUI: false,
 			styles : mapStyle
 		});
 
-		map.addMarker({
-			lat : 40.7128,
-			lng : -74.0059,
-			icon: 'images/marker-icon.png',
-			infoWindow: {
-				content: '<p>New York City</p>'
-			}
-		});
+		// map.addMarker({
+		// 	lat : 40.7128,
+		// 	lng : -74.0059,
+		// 	icon: 'images/marker-icon.png',
+		// 	infoWindow: {
+		// 		content: '<p>New York City</p>'
+		// 	}
+		// });
 	}
 
 }(jQuery));
